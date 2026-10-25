@@ -47,3 +47,83 @@
     background-color: #4CAF50;
     color: white;
 }
+
+#proyectos {
+    padding: 30px;
+    text-align: center;
+}
+
+.proyectos-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.proyecto {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.proyecto img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.proyecto a {
+    text-decoration: none;
+    color: blue;
+}
+
+.proyecto a:hover {
+    color: green;
+}
+
+#contacto {
+    padding: 30px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+    gap: 10px;
+}
+
+input,
+textarea {
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: yellow;
+}
