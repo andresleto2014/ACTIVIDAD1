@@ -1,6 +1,37 @@
-.title {
-    color: green;
+header {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    padding: 15px 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+
+header ul {
+    list-style: none;      /* quita los puntos */
+    margin: 0;
+    padding: 0;
+    display: flex;         /* menú horizontal */
+    justify-content: center;
+    gap: 30px;
+}
+
+header li {
+    margin: 0;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+header a:hover {
+    color: #ffd700;
+}
+
+
+
 #inicio img {
     width: 200px;
     height: auto;
