@@ -5,3 +5,45 @@
     width: 200px;
     height: auto;
 }
+
+#inicio {
+    padding: 30px;
+    text-align: center;
+}
+
+#sobre-mi {
+    padding: 30px;
+    text-align: center;
+}
+
+#sobre-mi p {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+#habilidades {
+    padding: 30px;
+    text-align: center;
+}
+
+.habilidades-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.habilidad {
+    background-color: #f0f0f0;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.habilidad:hover {
+    background-color: #4CAF50;
+    color: white;
+}
